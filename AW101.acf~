@@ -143,8 +143,8 @@ P _gear/0/_eagle_claw_deg 0.0
 P _gear/0/_gear_brakes 1
 P _gear/0/_gear_can_retract 1
 P _gear/0/_gear_castors 0
-P _gear/0/_gear_def_empty 0.032808397
-P _gear/0/_gear_def_gross 0.393700778
+P _gear/0/_gear_def_empty 0.164041996
+P _gear/0/_gear_def_gross 0.557742774
 P _gear/0/_gear_load_fraction 0.304759860
 P _gear/0/_gear_type 3
 P _gear/0/_gear_x 0.0
@@ -155,10 +155,10 @@ P _gear/0/_latN 0.0
 P _gear/0/_latR 0.0
 P _gear/0/_leg_len 3.280839920
 P _gear/0/_lonE 0.0
-P _gear/0/_lonN 50.583816528
+P _gear/0/_lonN 17.881660461
 P _gear/0/_lonR 90.0
 P _gear/0/_scon 49237.488281250
-P _gear/0/_stat_def 0.199231640
+P _gear/0/_stat_def 0.199231565
 P _gear/0/_steerdeg_hispeed 45.0
 P _gear/0/_steerdeg_lospeed 45.0
 P _gear/0/_strut_comp 2.0
@@ -177,8 +177,8 @@ P _gear/1/_eagle_claw_deg 0.0
 P _gear/1/_gear_brakes 1
 P _gear/1/_gear_can_retract 1
 P _gear/1/_gear_castors 0
-P _gear/1/_gear_def_empty 0.032808397
-P _gear/1/_gear_def_gross 0.393700778
+P _gear/1/_gear_def_empty 0.164041996
+P _gear/1/_gear_def_gross 0.557742774
 P _gear/1/_gear_load_fraction 0.347620070
 P _gear/1/_gear_type 3
 P _gear/1/_gear_x 5.019684792
@@ -189,10 +189,10 @@ P _gear/1/_latN 0.0
 P _gear/1/_latR 0.0
 P _gear/1/_leg_len 3.280839920
 P _gear/1/_lonE -10.0
-P _gear/1/_lonN -54.963394165
+P _gear/1/_lonN -25.894805908
 P _gear/1/_lonR -90.0
 P _gear/1/_scon 49237.488281250
-P _gear/1/_stat_def 0.227250800
+P _gear/1/_stat_def 0.227250740
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.300000012
@@ -211,8 +211,8 @@ P _gear/2/_eagle_claw_deg 0.0
 P _gear/2/_gear_brakes 1
 P _gear/2/_gear_can_retract 1
 P _gear/2/_gear_castors 0
-P _gear/2/_gear_def_empty 0.032808397
-P _gear/2/_gear_def_gross 0.393700778
+P _gear/2/_gear_def_empty 0.164041996
+P _gear/2/_gear_def_gross 0.557742774
 P _gear/2/_gear_load_fraction 0.347620070
 P _gear/2/_gear_type 3
 P _gear/2/_gear_x -5.019684792
@@ -223,10 +223,10 @@ P _gear/2/_latN 0.0
 P _gear/2/_latR 0.0
 P _gear/2/_leg_len 3.280839920
 P _gear/2/_lonE -10.0
-P _gear/2/_lonN -54.963394165
+P _gear/2/_lonN -25.894805908
 P _gear/2/_lonR -90.0
 P _gear/2/_scon 49237.488281250
-P _gear/2/_stat_def 0.227250800
+P _gear/2/_stat_def 0.227250740
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.300000012
@@ -434,7 +434,7 @@ P _obja/9/_v10_att_z_acf_prt_ref 0.0
 P _obja/9/_v10_is_internal 2
 P _obja/9/_v10_steers_with_gear 0
 P _obja/count 12
-P _panel_inst_3d 0
+P _panel_inst_3d 19
 P _part/0/_aero_x_os 0.0
 P _part/0/_aero_y_os 0.0
 P _part/0/_aero_z_os 0.0
@@ -21116,8 +21116,8 @@ P _part/87/_top_t2 0.0
 P _part/count 95
 P _prop/0/_des_kts_acf 100.0
 P _prop/0/_des_rpm_prp 210.0
-P _prop/0/_max_pitch 1.0
-P _prop/0/_min_pitch 0.500000000
+P _prop/0/_max_pitch 17.0
+P _prop/0/_min_pitch -4.0
 P _prop/0/_num_blades 5.0
 P _prop/0/_prop_clutch_EQ 0
 P _prop/0/_prop_dir 1.0
@@ -21128,8 +21128,8 @@ P _prop/0/_vectarmY_engn 0.0
 P _prop/0/_vectarmZ_engn 0.0
 P _prop/1/_des_kts_acf 100.0
 P _prop/1/_des_rpm_prp 970.0
-P _prop/1/_max_pitch 1.0
-P _prop/1/_min_pitch 0.500000000
+P _prop/1/_max_pitch 15.0
+P _prop/1/_min_pitch -10.0
 P _prop/1/_num_blades 4.0
 P _prop/1/_prop_clutch_EQ 0
 P _prop/1/_prop_dir 1.0
@@ -23789,7 +23789,7 @@ P acf/_Mmo 0.0
 P acf/_RSC_idlespeed_ENGN 0.0
 P acf/_RSC_maxgreen_ENGN 30000.0
 P acf/_RSC_mingov_ENGN 0.0
-P acf/_RSC_mingreen_ENGN 0.0
+P acf/_RSC_mingreen_ENGN 10000.0
 P acf/_RSC_redline_ENGN 40000.0
 P acf/_SFC_ROC 9.970000267
 P acf/_SFC_alt_hi_JET 0.0
@@ -24628,7 +24628,7 @@ P acf/_bouncer_spring_k/9,2 0.0
 P acf/_bouncer_spring_k/i_count 14
 P acf/_bouncer_spring_k/j_count 3
 P acf/_brake_co 1.0
-P acf/_burner_inc 100000.0
+P acf/_burner_inc 0.0
 P acf/_bus_bat_is_on/0 0
 P acf/_bus_bat_is_on/1 0
 P acf/_bus_bat_is_on/2 0
@@ -25834,12 +25834,12 @@ P acf/_esys_bus_bit_add/rel_startr7 0
 P acf/_esys_bus_bit_add/rel_xpndr 0
 P acf/_esys_bus_bit_add/rel_yaw_damp 0
 P acf/_exhaust_rat 1.0
-P acf/_face_jet 1.0
+P acf/_face_jet 0.0
 P acf/_face_rocket 0.0
 P acf/_fadec_EQ_mixture 0
 P acf/_fadec_EQ_rpm_limit 0
 P acf/_fadec_prevents_overboost 1
-P acf/_fan_rpm_for_n1_100 100000.0
+P acf/_fan_rpm_for_n1_100 0.0
 P acf/_fbrk_on_td_EQ 0
 P acf/_fdir_needed_to_engage_servo 0
 P acf/_feather_on_engn_fail_EQ 0
@@ -26046,7 +26046,7 @@ P acf/_has_full_bleed_air 0
 P acf/_has_get_tow 0
 P acf/_has_give_tow 0
 P acf/_has_ground_pwr 0
-P acf/_has_hsi 0
+P acf/_has_hsi 1
 P acf/_has_litemap_tex_1 0
 P acf/_has_litemap_tex_2 0
 P acf/_has_pre_rotate 0
@@ -26354,7 +26354,7 @@ P acf/_refuel_snd/2 0.0
 P acf/_refuel_snd/count 3
 P acf/_rev_thrust_EQ 0
 P acf/_reversed_pitch 0.0
-P acf/_reverser_area 1.0
+P acf/_reverser_area 0.0
 P acf/_revt_on_td_EQ 0
 P acf/_rgb_green_arc/0 0.0
 P acf/_rgb_green_arc/1 1.0
@@ -26557,10 +26557,10 @@ P acf/_stab_with_flap 0.0
 P acf/_stall_warn_aoa 10.0
 P acf/_stall_warn_is_variable 0
 P acf/_start_on_water 0
-P acf/_starter_engages_fuel 0
-P acf/_starter_engages_igniter_arm 0
-P acf/_starter_engages_igniter_on 0
-P acf/_starter_engages_ignition 0
+P acf/_starter_engages_fuel 1
+P acf/_starter_engages_igniter_arm 1
+P acf/_starter_engages_igniter_on 1
+P acf/_starter_engages_ignition 1
 P acf/_starter_is_air_driven 0
 P acf/_starter_max_rpm_rat 0.200000003
 P acf/_starter_torque_rat 0.300000012
@@ -26633,13 +26633,13 @@ P acf/_throt_max_fwd_nrm 1.0
 P acf/_throt_max_rev 1.0
 P acf/_throt_time_jet 0.500000000
 P acf/_throt_time_prop 0.500000000
-P acf/_thrust_max_limit 100000.0
+P acf/_thrust_max_limit 0.0
 P acf/_thrust_rev_dep_time 1.0
 P acf/_tip_AOA_des 0.0
 P acf/_tip_mach_des_100 0.0
 P acf/_tip_mach_des_50 0.0
 P acf/_tip_weight 0.0
-P acf/_trans_loss 0.0
+P acf/_trans_loss 0.003000000
 P acf/_truck_lat_sep 3.0
 P acf/_truck_lon_sep 3.0
 P acf/_tvec_hdng 0.0
@@ -26788,6 +26788,353 @@ P acf/_yel_lo_xmsn_P 0
 P acf/_yel_lo_xmsn_T 0
 PROPERTIES_END
 PANEL_2D_BEGIN
+EFIS_screen_1_BC blank_Small_BC.png
+  POS 413.000000 284.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_screen_1_BC blank_Small_BC.png
+  POS 413.000000 84.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+ins_chrono_HM chrono_HM.png
+  POS 717.000000 209.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+horiz_small_adj horizon_small_adj.p
+  POS 601.000000 318.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+alt_HM_small_dig alt_HM_small_dig.pn
+  POS 601.500000 203.500000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+asi_2_need ASI_twin_needle.png
+  POS 612.000000 77.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_horizon el_horizon.png
+  POS 416.571411 311.714264
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_airspeed el_airspeed.png
+  POS 336.714294 305.285706
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_altitude el_altitude.png
+  POS 492.000000 305.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_hsi_fullround el_hsi_full_Circle.
+  POS 413.000000 85.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_vvi_vert el_vvi_vert.png
+  POS 480.000000 85.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_vvi_dig el_vvi_dig.png
+  POS 501.000000 85.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_HITS HITS.png
+  POS 110.714287 191.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_glideslope el_glideslope.png
+  POS 359.000000 313.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_psi_disp el_heading.png
+  POS 413.714355 162.571442
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_baro el_baro.png
+  POS 485.000000 232.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_groundspeed el_groundspeed.png
+  POS 337.000000 229.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_screen_2_BC blank_Medium_BC.png
+  POS 110.000000 189.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+ins_slip_HM slip_HM.png
+  POS 416.000000 209.000000
+  DATAREF 
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
 PANEL_2D_END
 PANEL_3D_BEGIN
+EFIS_screen_1_BC blank_Small_BC.png
+  POS 1623.000000 361.000000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_screen_1_BC blank_Small_BC.png
+  POS 1623.000000 61.000000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+ins_chrono_HM chrono_HM.png
+  POS 1861.000000 473.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+horiz_small_adj horizon_small_adj.p
+  POS 1896.000000 328.000000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+alt_HM_small_dig alt_HM_small_dig.pn
+  POS 1897.500000 163.500000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+asi_2_need ASI_twin_needle.png
+  POS 1896.000000 -5.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_screen_2_BC blank_Medium_BC.png
+  POS 1160.000000 299.000000
+  DATAREF 
+  SIZE 1.700000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_horizon el_horizon.png
+  POS 1623.571411 393.714264
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_airspeed el_airspeed.png
+  POS 1514.000000 393.000000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_altitude el_altitude.png
+  POS 1738.000000 392.000000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_hsi_fullround el_hsi_full_Circle.
+  POS 1623.000000 61.000000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_vvi_vert el_vvi_vert.png
+  POS 1738.000000 62.000000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_vvi_dig el_vvi_dig.png
+  POS 1762.000000 61.000000
+  DATAREF 
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_HITS HITS.png
+  POS 1158.000000 311.000000
+  DATAREF 
+  SIZE 2.000000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_glideslope el_glideslope.png
+  POS 1537.000000 394.000000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_psi_disp el_heading.png
+  POS 1623.714355 162.571442
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_baro el_baro.png
+  POS 1730.000000 282.000000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_groundspeed el_groundspeed.png
+  POS 1506.000000 281.000000
+  DATAREF 
+  SIZE 1.500000
+  COPILOT
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
 PANEL_3D_END
