@@ -2643,14 +2643,14 @@ IDX	2387
 
 	ANIM_begin
 	ANIM_trans	11.51031017	4.41110992	-0.19416	11.51031017	4.41110992	-0.19416
-	ANIM_rotate_begin	0	0	-1	rotors/tail/RPM
+	ANIM_rotate_begin	0	0	-1	sim/flightmodel2/engines/prop_rotation_angle_deg[1]
 	ANIM_rotate_key	0	0
 	ANIM_rotate_key	360	360.0002559
 	ANIM_rotate_end
 			ANIM_begin
 			ANIM_trans	-0.00002	-0.00001	1.00001001	-0.00002	-0.00001	1.00001001
 			ANIM_rotate	0	1	0	90.00020741	90.00020741
-			ANIM_rotate_begin	0	0	-1	rotors/tail/pitch-deg[3]
+			ANIM_rotate_begin	0	0	-1	sim/flightmodel2/wing/elevator2_deg[2]
 			ANIM_rotate_key	-10	-17.00023156
 			ANIM_rotate_key	24	17.00023156
 			ANIM_rotate_end
@@ -2661,7 +2661,7 @@ IDX	2387
 			ANIM_trans	-0.00002	-0.00001	1.00001001	-0.00002	-0.00001	1.00001001
 			ANIM_rotate	0	1	0	90.00020741	90.00020741
 			ANIM_rotate	1	0	0	-90.00020741	-90.00020741
-			ANIM_rotate_begin	0	0	-1	rotors/tail/pitch-deg[2]
+			ANIM_rotate_begin	0	0	-1	sim/flightmodel2/wing/elevator2_deg[1]
 			ANIM_rotate_key	-10	-17.00023156
 			ANIM_rotate_key	24	17.00023156
 			ANIM_rotate_end
@@ -2671,7 +2671,7 @@ IDX	2387
 			ANIM_trans	-0.00002	-0.00001	1.00001001	-0.00002	-0.00001	1.00001001
 			ANIM_rotate	0	1	0	90.00020741	90.00020741
 			ANIM_rotate	1	0	0	179.99985474	179.99985474
-			ANIM_rotate_begin	0	0	-1	rotors/tail/pitch-deg[1]
+			ANIM_rotate_begin	0	0	-1	sim/flightmodel2/wing/elevator2_deg[0]
 			ANIM_rotate_key	-10	-17.00023156
 			ANIM_rotate_key	24	17.00023156
 			ANIM_rotate_end
@@ -2681,7 +2681,7 @@ IDX	2387
 			ANIM_trans	-0.00002	-0.00001	1.00001001	-0.00002	-0.00001	1.00001001
 			ANIM_rotate	0	1	0	90.00020741	90.00020741
 			ANIM_rotate	1	0	0	90.00020741	90.00020741
-			ANIM_rotate_begin	0	0	-1	rotors/tail/pitch-deg[4]
+			ANIM_rotate_begin	0	0	-1	sim/flightmodel2/wing/elevator2_deg[3]
 			ANIM_rotate_key	-10	-17.00023156
 			ANIM_rotate_key	24	17.00023156
 			ANIM_rotate_end
