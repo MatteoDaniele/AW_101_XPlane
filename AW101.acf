@@ -151,10 +151,10 @@ P _gear/0/_latN 0.0
 P _gear/0/_latR 0.0
 P _gear/0/_leg_len 3.280839920
 P _gear/0/_lonE 0.0
-P _gear/0/_lonN 40.801532745
+P _gear/0/_lonN 36.806327820
 P _gear/0/_lonR 90.0
 P _gear/0/_scon 38969.898437500
-P _gear/0/_stat_def 0.251647860
+P _gear/0/_stat_def 0.251647830
 P _gear/0/_steerdeg_hispeed 45.0
 P _gear/0/_steerdeg_lospeed 45.0
 P _gear/0/_strut_comp 2.0
@@ -185,10 +185,10 @@ P _gear/1/_latN 0.0
 P _gear/1/_latR 0.0
 P _gear/1/_leg_len 3.280839920
 P _gear/1/_lonE -10.0
-P _gear/1/_lonN -46.268028259
+P _gear/1/_lonN -42.716735840
 P _gear/1/_lonR -90.0
 P _gear/1/_scon 38969.898437500
-P _gear/1/_stat_def 0.287145525
+P _gear/1/_stat_def 0.287145436
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.300000012
@@ -219,10 +219,10 @@ P _gear/2/_latN 0.0
 P _gear/2/_latR 0.0
 P _gear/2/_leg_len 3.280839920
 P _gear/2/_lonE -10.0
-P _gear/2/_lonN -46.268028259
+P _gear/2/_lonN -42.716735840
 P _gear/2/_lonR -90.0
 P _gear/2/_scon 38969.898437500
-P _gear/2/_stat_def 0.287145525
+P _gear/2/_stat_def 0.287145436
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.300000012
@@ -333,19 +333,19 @@ P _lite/4/_width 0.0
 P _lite/count 5
 P _lite_equip/_land_lite_off_on_retract_EQ 0
 P _lite_equip/_taxi_lite_off_on_retract_EQ 0
-P _obja/0/_obj_flags 4108
-P _obja/0/_v10_att_file_stl ../AW101_cockpit.obj
+P _obja/0/_obj_flags 4
+P _obja/0/_v10_att_file_stl AW101_accessories.obj
 P _obja/0/_v10_att_part -1
 P _obja/0/_v10_att_phi_ref 0.0
-P _obja/0/_v10_att_psi_ref 0.0
+P _obja/0/_v10_att_psi_ref 90.0
 P _obja/0/_v10_att_the_ref 0.0
 P _obja/0/_v10_att_x_acf_prt_ref 0.0
 P _obja/0/_v10_att_y_acf_prt_ref -4.002624512
 P _obja/0/_v10_att_z_acf_prt_ref 20.866142273
-P _obja/0/_v10_is_internal 12
+P _obja/0/_v10_is_internal 2
 P _obja/0/_v10_steers_with_gear 0
 P _obja/1/_obj_flags 4
-P _obja/1/_v10_att_file_stl AW101_accessories.obj
+P _obja/1/_v10_att_file_stl AW101_intakes_exhausts.obj
 P _obja/1/_v10_att_part -1
 P _obja/1/_v10_att_phi_ref 0.0
 P _obja/1/_v10_att_psi_ref 90.0
@@ -353,21 +353,10 @@ P _obja/1/_v10_att_the_ref 0.0
 P _obja/1/_v10_att_x_acf_prt_ref 0.0
 P _obja/1/_v10_att_y_acf_prt_ref -4.002624512
 P _obja/1/_v10_att_z_acf_prt_ref 20.866142273
-P _obja/1/_v10_is_internal 2
+P _obja/1/_v10_is_internal 1103971576
 P _obja/1/_v10_steers_with_gear 0
-P _obja/10/_obj_flags 2060
-P _obja/10/_v10_att_file_stl ../AW101_cockpit.obj
-P _obja/10/_v10_att_part -1
-P _obja/10/_v10_att_phi_ref 0.0
-P _obja/10/_v10_att_psi_ref 0.0
-P _obja/10/_v10_att_the_ref 0.0
-P _obja/10/_v10_att_x_acf_prt_ref 0.0
-P _obja/10/_v10_att_y_acf_prt_ref -4.002624512
-P _obja/10/_v10_att_z_acf_prt_ref 20.866142273
-P _obja/10/_v10_is_internal 88
-P _obja/10/_v10_steers_with_gear 0
 P _obja/2/_obj_flags 4
-P _obja/2/_v10_att_file_stl AW101_intakes_exhausts.obj
+P _obja/2/_v10_att_file_stl AW101_fuselage.obj
 P _obja/2/_v10_att_part -1
 P _obja/2/_v10_att_phi_ref 0.0
 P _obja/2/_v10_att_psi_ref 90.0
@@ -378,7 +367,7 @@ P _obja/2/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/2/_v10_is_internal 1103971576
 P _obja/2/_v10_steers_with_gear 0
 P _obja/3/_obj_flags 4
-P _obja/3/_v10_att_file_stl AW101_fuselage.obj
+P _obja/3/_v10_att_file_stl AW101_landing_gears.obj
 P _obja/3/_v10_att_part -1
 P _obja/3/_v10_att_phi_ref 0.0
 P _obja/3/_v10_att_psi_ref 90.0
@@ -389,7 +378,7 @@ P _obja/3/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/3/_v10_is_internal 1103971576
 P _obja/3/_v10_steers_with_gear 0
 P _obja/4/_obj_flags 4
-P _obja/4/_v10_att_file_stl AW101_landing_gears.obj
+P _obja/4/_v10_att_file_stl AW101_tail_rotor.obj
 P _obja/4/_v10_att_part -1
 P _obja/4/_v10_att_phi_ref 0.0
 P _obja/4/_v10_att_psi_ref 90.0
@@ -399,8 +388,8 @@ P _obja/4/_v10_att_y_acf_prt_ref -4.002624512
 P _obja/4/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/4/_v10_is_internal 1103971576
 P _obja/4/_v10_steers_with_gear 0
-P _obja/5/_obj_flags 4
-P _obja/5/_v10_att_file_stl AW101_screens.obj
+P _obja/5/_obj_flags 0
+P _obja/5/_v10_att_file_stl AW101_main_rotor.obj
 P _obja/5/_v10_att_part -1
 P _obja/5/_v10_att_phi_ref 0.0
 P _obja/5/_v10_att_psi_ref 90.0
@@ -408,10 +397,10 @@ P _obja/5/_v10_att_the_ref 0.0
 P _obja/5/_v10_att_x_acf_prt_ref 0.0
 P _obja/5/_v10_att_y_acf_prt_ref -4.002624512
 P _obja/5/_v10_att_z_acf_prt_ref 20.866142273
-P _obja/5/_v10_is_internal 1103971576
+P _obja/5/_v10_is_internal 2
 P _obja/5/_v10_steers_with_gear 0
-P _obja/6/_obj_flags 4
-P _obja/6/_v10_att_file_stl AW101_tail_rotor.obj
+P _obja/6/_obj_flags 1
+P _obja/6/_v10_att_file_stl AW101_internal.obj
 P _obja/6/_v10_att_part -1
 P _obja/6/_v10_att_phi_ref 0.0
 P _obja/6/_v10_att_psi_ref 90.0
@@ -419,10 +408,10 @@ P _obja/6/_v10_att_the_ref 0.0
 P _obja/6/_v10_att_x_acf_prt_ref 0.0
 P _obja/6/_v10_att_y_acf_prt_ref -4.002624512
 P _obja/6/_v10_att_z_acf_prt_ref 20.866142273
-P _obja/6/_v10_is_internal 1103971576
+P _obja/6/_v10_is_internal 1075803384
 P _obja/6/_v10_steers_with_gear 0
-P _obja/7/_obj_flags 0
-P _obja/7/_v10_att_file_stl AW101_main_rotor.obj
+P _obja/7/_obj_flags 4
+P _obja/7/_v10_att_file_stl glass_out.obj
 P _obja/7/_v10_att_part -1
 P _obja/7/_v10_att_phi_ref 0.0
 P _obja/7/_v10_att_psi_ref 90.0
@@ -432,30 +421,30 @@ P _obja/7/_v10_att_y_acf_prt_ref -4.002624512
 P _obja/7/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/7/_v10_is_internal 2
 P _obja/7/_v10_steers_with_gear 0
-P _obja/8/_obj_flags 1
-P _obja/8/_v10_att_file_stl AW101_internal.obj
+P _obja/8/_obj_flags 0
+P _obja/8/_v10_att_file_stl AW101_screen_frames.obj
 P _obja/8/_v10_att_part -1
 P _obja/8/_v10_att_phi_ref 0.0
-P _obja/8/_v10_att_psi_ref 90.0
+P _obja/8/_v10_att_psi_ref 0.0
 P _obja/8/_v10_att_the_ref 0.0
 P _obja/8/_v10_att_x_acf_prt_ref 0.0
 P _obja/8/_v10_att_y_acf_prt_ref -4.002624512
 P _obja/8/_v10_att_z_acf_prt_ref 20.866142273
-P _obja/8/_v10_is_internal 1075803384
+P _obja/8/_v10_is_internal 0
 P _obja/8/_v10_steers_with_gear 0
 P _obja/9/_obj_flags 4
-P _obja/9/_v10_att_file_stl glass_out.obj
+P _obja/9/_v10_att_file_stl ../AW101_cockpit.obj
 P _obja/9/_v10_att_part -1
 P _obja/9/_v10_att_phi_ref 0.0
-P _obja/9/_v10_att_psi_ref 90.0
+P _obja/9/_v10_att_psi_ref 0.0
 P _obja/9/_v10_att_the_ref 0.0
 P _obja/9/_v10_att_x_acf_prt_ref 0.0
 P _obja/9/_v10_att_y_acf_prt_ref -4.002624512
 P _obja/9/_v10_att_z_acf_prt_ref 20.866142273
-P _obja/9/_v10_is_internal 2
+P _obja/9/_v10_is_internal 0
 P _obja/9/_v10_steers_with_gear 0
-P _obja/count 11
-P _panel_inst_3d 19
+P _obja/count 10
+P _panel_inst_3d 0
 P _part/0/_bot_s1 0.0
 P _part/0/_bot_s2 0.0
 P _part/0/_bot_t1 0.0
@@ -19542,7 +19531,7 @@ P _part/86/_part_specs_invis 1
 P _part/86/_part_tex 0
 P _part/86/_part_the 0.0
 P _part/86/_part_x 5.019684792
-P _part/86/_part_y -2.943850994
+P _part/86/_part_y -2.943851233
 P _part/86/_part_z 28.883359909
 P _part/86/_patt_con 0
 P _part/86/_patt_prt 0
@@ -21011,7 +21000,7 @@ P _part/87/_part_specs_invis 1
 P _part/87/_part_tex 0
 P _part/87/_part_the 0.0
 P _part/87/_part_x -5.019684792
-P _part/87/_part_y -2.943850994
+P _part/87/_part_y -2.943851233
 P _part/87/_part_z 28.883359909
 P _part/87/_patt_con 0
 P _part/87/_patt_prt 0
@@ -26032,7 +26021,7 @@ P acf/_has_get_tow 0
 P acf/_has_get_tow_new 0
 P acf/_has_give_tow 0
 P acf/_has_ground_pwr 0
-P acf/_has_hsi 1
+P acf/_has_hsi 0
 P acf/_has_litemap_tex_1 0
 P acf/_has_litemap_tex_2 0
 P acf/_has_pre_rotate 0
@@ -26823,353 +26812,6 @@ P acf/_yel_lo_xmsn_P 0
 P acf/_yel_lo_xmsn_T 0
 PROPERTIES_END
 PANEL_2D_BEGIN
-EFIS_screen_1_BC blank_Small_BC.png
-  POS 413.000000 284.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_screen_1_BC blank_Small_BC.png
-  POS 413.000000 84.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-ins_chrono_HM chrono_HM.png
-  POS 717.000000 209.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-horiz_small_adj horizon_small_adj.p
-  POS 601.000000 318.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-alt_HM_small_dig alt_HM_small_dig.pn
-  POS 601.500000 203.500000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-asi_2_need ASI_twin_needle.png
-  POS 612.000000 77.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_horizon el_horizon.png
-  POS 416.571411 311.714264
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_airspeed el_airspeed.png
-  POS 336.714294 305.285706
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_altitude el_altitude.png
-  POS 492.000000 305.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_hsi_fullround el_hsi_full_Circle.
-  POS 413.000000 85.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_vvi_vert el_vvi_vert.png
-  POS 480.000000 85.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_vvi_dig el_vvi_dig.png
-  POS 501.000000 85.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_HITS HITS.png
-  POS 110.714287 191.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_glideslope el_glideslope.png
-  POS 359.000000 313.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_psi_disp el_heading.png
-  POS 413.714355 162.571442
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_baro el_baro.png
-  POS 485.000000 232.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_groundspeed el_groundspeed.png
-  POS 337.000000 229.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_screen_2_BC blank_Medium_BC.png
-  POS 110.000000 189.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-ins_slip_HM slip_HM.png
-  POS 416.000000 209.000000
-  DATAREF 
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
 PANEL_2D_END
 PANEL_3D_BEGIN
-EFIS_screen_1_BC blank_Small_BC.png
-  POS 1623.000000 361.000000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_screen_1_BC blank_Small_BC.png
-  POS 1623.000000 61.000000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-ins_chrono_HM chrono_HM.png
-  POS 1861.000000 473.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-horiz_small_adj horizon_small_adj.p
-  POS 1896.000000 328.000000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-alt_HM_small_dig alt_HM_small_dig.pn
-  POS 1897.500000 163.500000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-asi_2_need ASI_twin_needle.png
-  POS 1896.000000 -5.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_screen_2_BC blank_Medium_BC.png
-  POS 1160.000000 299.000000
-  DATAREF 
-  SIZE 1.700000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_horizon el_horizon.png
-  POS 1623.571411 393.714264
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_airspeed el_airspeed.png
-  POS 1514.000000 393.000000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_altitude el_altitude.png
-  POS 1738.000000 392.000000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_hsi_fullround el_hsi_full_Circle.
-  POS 1623.000000 61.000000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_vvi_vert el_vvi_vert.png
-  POS 1738.000000 62.000000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_vvi_dig el_vvi_dig.png
-  POS 1762.000000 61.000000
-  DATAREF 
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_HITS HITS.png
-  POS 1158.000000 311.000000
-  DATAREF 
-  SIZE 2.000000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_glideslope el_glideslope.png
-  POS 1537.000000 394.000000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_psi_disp el_heading.png
-  POS 1623.714355 162.571442
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_baro el_baro.png
-  POS 1730.000000 282.000000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_groundspeed el_groundspeed.png
-  POS 1506.000000 281.000000
-  DATAREF 
-  SIZE 1.500000
-  COPILOT
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
 PANEL_3D_END

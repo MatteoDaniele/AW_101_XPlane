@@ -18,45 +18,45 @@ BEGIN_TELEPORT_HOTSPOT SITTING CoPilot's Seat
 	PRESET_PHI 0.0
 END_TELEPORT_HOTSPOT
 
-BEGIN_TELEPORT_HOTSPOT SITTING Right Passenger Seat
-	AABB 0.0 -1.2 -1.7 1.0 0.8 0.3
-	PRESET_XYZ 0.55 0.10 -0.1
-	PRESET_PSI 0.0
-	PRESET_THE 0.0
-	PRESET_PHI 0.0
-END_TELEPORT_HOTSPOT
+#BEGIN_TELEPORT_HOTSPOT SITTING Right Passenger Seat
+#	AABB 0.0 -1.2 -1.7 1.0 0.8 0.3
+#	PRESET_XYZ 0.55 0.10 -0.1
+#	PRESET_PSI 0.0
+#	PRESET_THE 0.0
+#	PRESET_PHI 0.0
+#END_TELEPORT_HOTSPOT
 
-BEGIN_TELEPORT_HOTSPOT SITTING Left Passenger Seat
-	AABB -1.0 -1.2 -1.7 0.0 0.8 0.3
-	PRESET_XYZ -0.60 0.10 -0.1
-	PRESET_PSI 0.0
-	PRESET_THE 0.0
-	PRESET_PHI 0.0
-END_TELEPORT_HOTSPOT
-
-BEGIN_MANIP drag_xy sim/cockpit2/controls/yoke_roll_ratio sim/cockpit2/controls/yoke_pitch_ratio
-	#YOKE_MANIP_ROTATE <ptch cent x> <ptch cent y> <ptch cent z> <ptch axis x> <ptch axis y> <ptch axis z> <ptch min ang> <ptch max ang> <roll cent x> <roll cent y> <roll cent z> <roll axis x> <roll axis y> <roll axis z> <roll min ang> <roll max ang>
-	YOKE_MANIP_ROTATE 0.482876 -0.563300 1.600500 -1.0 0.0 0.0 6.0 -6.0 0.479400 -0.563300 1.597230 0.000000 0.000000 -1.000000 -6.0 6.0
-END_MANIP
-
+#BEGIN_TELEPORT_HOTSPOT SITTING Left Passenger Seat
+#	AABB -1.0 -1.2 -1.7 0.0 0.8 0.3
+#	PRESET_XYZ -0.60 0.10 -0.1
+#	PRESET_PSI 0.0
+#	PRESET_THE 0.0
+#	PRESET_PHI 0.0
+#END_TELEPORT_HOTSPOT
+#
+#BEGIN_MANIP drag_xy sim/cockpit2/controls/yoke_roll_ratio sim/cockpit2/controls/#yoke_pitch_ratio
+#	#YOKE_MANIP_ROTATE <ptch cent x> <ptch cent y> <ptch cent z> <ptch axis x> <ptch axis y> <ptch axis z> <ptch min ang> <ptch max ang> <roll cent x> <roll cent y> <roll cent z> <roll axis x> <roll axis y> <roll axis z> <roll min ang> <roll max ang>
+#	YOKE_MANIP_ROTATE 0.482876 -0.563300 1.600500 -1.0 0.0 0.0 6.0 -6.0 0.479400 -0.563300 1.597230 0.000000 0.000000 -1.000000 -6.0 6.0
+#END_MANIP
+#
 # CoPilot Yoke. Disabled for now until we make necessary art changes to differentiate this manipulator from the Pilot's side.
 #BEGIN_MANIP drag_xy sim/cockpit2/controls/yoke_roll_ratio sim/cockpit2/controls/yoke_pitch_ratio
 	#YOKE_MANIP_ROTATE <ptch cent x> <ptch cent y> <ptch cent z> <ptch axis x> <ptch axis y> <ptch axis z> <ptch min ang> <ptch max ang> <roll cent x> <roll cent y> <roll cent z> <roll axis x> <roll axis y> <roll axis z> <roll min ang> <roll max ang>
 #	YOKE_MANIP_ROTATE -0.483300 -0.563300 1.600500 -1.0 0.0 0.0 6.0 -6.0 -0.483300 -0.563300 1.597230 0.000000 0.000000 -1.000000 -6.0 6.0
 #END_MANIP
 
-BEGIN_MANIP command_knob sim/autopilot/hsi_select_up sim/autopilot/hsi_select_down
-	DEG_PER_ACTION 25
-END_MANIP
+#BEGIN_MANIP command_knob sim/autopilot/hsi_select_up sim/autopilot/hsi_select_down
+#	DEG_PER_ACTION 25
+#END_MANIP
 
-BEGIN_MANIP command_knob sim/autopilot/altitude_up sim/autopilot/altitude_down
-	DEG_PER_ACTION 0.5
-END_MANIP
+#BEGIN_MANIP command_knob sim/autopilot/altitude_up sim/autopilot/altitude_down
+#	DEG_PER_ACTION 0.5
+#END_MANIP
 
-BEGIN_MANIP command_switch_up_down sim/starters/engage_starter_1 sim/starters/engage_starter_1
-	HOLD_MANIP
-END_MANIP
+#BEGIN_MANIP command_switch_up_down sim/starters/engage_starter_1 sim/starters/engage_starter_1
+#	HOLD_MANIP
+#END_MANIP
 
-BEGIN_MANIP command_switch_up_down sim/starters/engage_starter_2 sim/starters/engage_starter_2
-	HOLD_MANIP
-END_MANIP
+#BEGIN_MANIP command_switch_up_down sim/starters/engage_starter_2 sim/starters/engage_starter_2
+#	HOLD_MANIP
+#END_MANIP
