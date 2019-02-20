@@ -151,10 +151,10 @@ P _gear/0/_latN 0.0
 P _gear/0/_latR 0.0
 P _gear/0/_leg_len 3.280839920
 P _gear/0/_lonE 0.0
-P _gear/0/_lonN 74.945510864
+P _gear/0/_lonN 88.729362488
 P _gear/0/_lonR 90.0
 P _gear/0/_scon 38969.898437500
-P _gear/0/_stat_def 0.259948760
+P _gear/0/_stat_def 0.259948730
 P _gear/0/_steerdeg_hispeed 45.0
 P _gear/0/_steerdeg_lospeed 45.0
 P _gear/0/_strut_comp 2.0
@@ -185,10 +185,10 @@ P _gear/1/_latN 0.0
 P _gear/1/_latR 0.0
 P _gear/1/_leg_len 3.280839920
 P _gear/1/_lonE -10.0
-P _gear/1/_lonN -76.618232727
+P _gear/1/_lonN -88.870544434
 P _gear/1/_lonR -90.0
 P _gear/1/_scon 38969.898437500
-P _gear/1/_stat_def 0.283013642
+P _gear/1/_stat_def 0.283013672
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.300000012
@@ -219,10 +219,10 @@ P _gear/2/_latN 0.0
 P _gear/2/_latR 0.0
 P _gear/2/_leg_len 3.280839920
 P _gear/2/_lonE -10.0
-P _gear/2/_lonN -76.618232727
+P _gear/2/_lonN -88.870544434
 P _gear/2/_lonR -90.0
 P _gear/2/_scon 38969.898437500
-P _gear/2/_stat_def 0.283013642
+P _gear/2/_stat_def 0.283013672
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.300000012
@@ -26032,7 +26032,7 @@ P acf/_has_get_tow 0
 P acf/_has_get_tow_new 0
 P acf/_has_give_tow 0
 P acf/_has_ground_pwr 0
-P acf/_has_hsi 0
+P acf/_has_hsi 1
 P acf/_has_litemap_tex_1 0
 P acf/_has_litemap_tex_2 0
 P acf/_has_pre_rotate 0
@@ -26828,18 +26828,20 @@ PANEL_3D_BEGIN
 GROUP PFD_PILOT
   GROUP_OPEN
   EFIS_horizon el_horizon.png
-    POS 1024.000000 768.000000
+    POS 1536.000000 1280.000000
     DATAREF 
+    SIZE 0.500000
     LIGHT_MODE MECHANICAL
     LIGHT_RHEOSTAT 0
     KEY_FRAME 0.000000 0.000000 1.000000
     KEY_FRAME 1.000000 1.000000
 
   gen_needle airspeed
-    POS 426.000000 1290.000000
+    POS 1216.000000 1600.000000
     IMAGE AW101_anemometer
     DATAREF sim/cockpit2/gauges/indicators/airspeed_kts_pilot
-    LIGHT_MODE MECHANICAL
+    SIZE 0.500000
+    LIGHT_MODE BACK_LIT_AUTO
     LIGHT_RHEOSTAT 0
     KEY_FRAME 0.000000 -150.000000 1.000000
     KEY_FRAME 200.000000 150.000000
@@ -26847,21 +26849,36 @@ GROUP PFD_PILOT
     OFFSET 0.000000
 
   gen_needle altitude
-    POS 1621.000000 1290.000000
+    POS 1856.000000 1600.000000
     IMAGE AW101_altimeter
     DATAREF sim/cockpit2/gauges/indicators/altitude_ft_pilot
-    LIGHT_MODE MECHANICAL
+    SIZE 0.500000
+    LIGHT_MODE BACK_LIT_AUTO
     LIGHT_RHEOSTAT 0
     KEY_FRAME 0.000000 0.000000 1.000000
-    KEY_FRAME 100000.000000 36000000.000000
+    KEY_FRAME 100000.000000 36000.000000
     IS_DRAGGABLE 0
     OFFSET 0.000000
 
+  gen_pointer sideslip
+    POS 1536.000000 832.000000
+    IMAGE AW101_sideslip
+    DATAREF lateral_acc
+    SIZE 0.500000
+    LIGHT_MODE BACK_LIT_AUTO
+    LIGHT_RHEOSTAT 0
+    KEY_FRAME -2.000000 -133.000000 1.000000
+    KEY_FRAME 2.000000 133.000000
+    IS_DRAGGABLE 0
+    IS_VERTICAL 0
+    OFFSET 0.000000
+
   gen_pointer vertspeed
-    POS 1892.000000 512.500000
+    POS 1948.000000 1124.500000
     IMAGE AW101_vertspeedind
     DATAREF sim/cockpit/autopilot/vertical_velocity
-    LIGHT_MODE MECHANICAL
+    SIZE 0.500000
+    LIGHT_MODE BACK_LIT_AUTO
     LIGHT_RHEOSTAT 0
     KEY_FRAME -400.000000 -514.559998 1.000000
     KEY_FRAME -200.000000 -385.920013 1.000000
@@ -26875,6 +26892,45 @@ GROUP PFD_PILOT
     IS_DRAGGABLE 0
     IS_VERTICAL 1
     OFFSET 68.000000
+
+  gen_LED airspeed_digital
+    POS 1216.000000 1600.000000
+    IMAGE AW101_airspeed_digital
+    DATAREF sim/cockpit2/gauges/indicators/airspeed_kts_pilot
+    SIZE 0.500000
+    LIGHT_MODE BACK_LIT_AUTO
+    LIGHT_RHEOSTAT 0
+    KEY_FRAME 0.000000 0.000000 1.000000
+    KEY_FRAME 200.000000 200.000000
+    DIGITS 3
+    DECIMALS 0
+    PERIOD_WIDTH 0
+    LED_ROWS 0
+
+  gen_LED altitude_digital
+    POS 1856.000000 1600.000000
+    IMAGE AW101_altitude_digital
+    DATAREF sim/cockpit2/gauges/indicators/altitude_ft_pilot
+    SIZE 0.500000
+    LIGHT_MODE BACK_LIT_AUTO
+    LIGHT_RHEOSTAT 0
+    KEY_FRAME 0.000000 0.000000 1.000000
+    KEY_FRAME 99999.000000 99999.000000
+    DIGITS 5
+    DECIMALS 0
+    PERIOD_WIDTH 0
+    LED_ROWS 0
+
+END_GROUP
+GROUP PND_PILOT
+  GROUP_OPEN
+  EFIS_hsi_fullround el_hsi_full_Circle.
+    POS 512.000000 1280.000000
+    DATAREF 
+    LIGHT_MODE MECHANICAL
+    LIGHT_RHEOSTAT 0
+    KEY_FRAME 0.000000 0.000000 1.000000
+    KEY_FRAME 1.000000 1.000000
 
 END_GROUP
 PANEL_3D_END
