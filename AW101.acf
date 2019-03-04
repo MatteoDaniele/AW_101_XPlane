@@ -151,10 +151,10 @@ P _gear/0/_latN 0.0
 P _gear/0/_latR 0.0
 P _gear/0/_leg_len 3.280839920
 P _gear/0/_lonE 0.0
-P _gear/0/_lonN 74.154190063
+P _gear/0/_lonN 2.946823120
 P _gear/0/_lonR 90.0
 P _gear/0/_scon 38969.898437500
-P _gear/0/_stat_def 0.259948641
+P _gear/0/_stat_def 0.259948701
 P _gear/0/_steerdeg_hispeed 45.0
 P _gear/0/_steerdeg_lospeed 45.0
 P _gear/0/_strut_comp 2.0
@@ -185,7 +185,7 @@ P _gear/1/_latN 0.0
 P _gear/1/_latR 0.0
 P _gear/1/_leg_len 3.280839920
 P _gear/1/_lonE -10.0
-P _gear/1/_lonN -75.914833069
+P _gear/1/_lonN -12.619400024
 P _gear/1/_lonR -90.0
 P _gear/1/_scon 38969.898437500
 P _gear/1/_stat_def 0.283013642
@@ -219,7 +219,7 @@ P _gear/2/_latN 0.0
 P _gear/2/_latR 0.0
 P _gear/2/_leg_len 3.280839920
 P _gear/2/_lonE -10.0
-P _gear/2/_lonN -75.914833069
+P _gear/2/_lonN -12.619400024
 P _gear/2/_lonR -90.0
 P _gear/2/_scon 38969.898437500
 P _gear/2/_stat_def 0.283013642
@@ -25827,7 +25827,7 @@ P acf/_feather_prop_with_oilp 0
 P acf/_feathered_pitch 0.0
 P acf/_ff_rat_idle_JET 0.100000001
 P acf/_ff_rat_idle_PRP 0.100000001
-P acf/_file_writer_version 113100
+P acf/_file_writer_version 113201
 P acf/_flap1_cd 0.0
 P acf/_flap1_cl 0.0
 P acf/_flap1_cm 0.0
@@ -26933,7 +26933,7 @@ GROUP PND_PILOT
     KEY_FRAME 1.000000 1.000000
 
   gen_LED heading_digital
-    POS 489.000000 1565.000000
+    POS 487.571442 1583.000000
     IMAGE AW101_airspeed_digital
     DATAREF sim/flightmodel/position/psi
     SIZE 0.500000
@@ -26947,7 +26947,7 @@ GROUP PND_PILOT
     LED_ROWS 0
 
   gen_LED groundspeed_digital
-    POS 487.000000 991.000000
+    POS 488.000000 983.000000
     IMAGE AW101_airspeed_digital
     DATAREF sim/cockpit2/gauges/indicators/airspeed_kts_pilot
     SIZE 0.500000
