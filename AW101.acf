@@ -151,10 +151,10 @@ P _gear/0/_latN 0.0
 P _gear/0/_latR 0.0
 P _gear/0/_leg_len 3.280839920
 P _gear/0/_lonE 0.0
-P _gear/0/_lonN 88.729362488
+P _gear/0/_lonN 74.154190063
 P _gear/0/_lonR 90.0
 P _gear/0/_scon 38969.898437500
-P _gear/0/_stat_def 0.259948730
+P _gear/0/_stat_def 0.259948641
 P _gear/0/_steerdeg_hispeed 45.0
 P _gear/0/_steerdeg_lospeed 45.0
 P _gear/0/_strut_comp 2.0
@@ -185,10 +185,10 @@ P _gear/1/_latN 0.0
 P _gear/1/_latR 0.0
 P _gear/1/_leg_len 3.280839920
 P _gear/1/_lonE -10.0
-P _gear/1/_lonN -88.870544434
+P _gear/1/_lonN -75.914833069
 P _gear/1/_lonR -90.0
 P _gear/1/_scon 38969.898437500
-P _gear/1/_stat_def 0.283013672
+P _gear/1/_stat_def 0.283013642
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.300000012
@@ -219,10 +219,10 @@ P _gear/2/_latN 0.0
 P _gear/2/_latR 0.0
 P _gear/2/_leg_len 3.280839920
 P _gear/2/_lonE -10.0
-P _gear/2/_lonN -88.870544434
+P _gear/2/_lonN -75.914833069
 P _gear/2/_lonR -90.0
 P _gear/2/_scon 38969.898437500
-P _gear/2/_stat_def 0.283013672
+P _gear/2/_stat_def 0.283013642
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.300000012
@@ -26894,7 +26894,7 @@ GROUP PFD_PILOT
     OFFSET 68.000000
 
   gen_LED airspeed_digital
-    POS 1216.000000 1600.000000
+    POS 1192.000000 1600.000000
     IMAGE AW101_airspeed_digital
     DATAREF sim/cockpit2/gauges/indicators/airspeed_kts_pilot
     SIZE 0.500000
@@ -26908,10 +26908,10 @@ GROUP PFD_PILOT
     LED_ROWS 0
 
   gen_LED altitude_digital
-    POS 1856.000000 1600.000000
+    POS 1818.000000 1594.000000
     IMAGE AW101_altitude_digital
     DATAREF sim/cockpit2/gauges/indicators/altitude_ft_pilot
-    SIZE 0.500000
+    SIZE 0.400000
     LIGHT_MODE BACK_LIT_AUTO
     LIGHT_RHEOSTAT 0
     KEY_FRAME 0.000000 0.000000 1.000000
@@ -26931,6 +26931,34 @@ GROUP PND_PILOT
     LIGHT_RHEOSTAT 0
     KEY_FRAME 0.000000 0.000000 1.000000
     KEY_FRAME 1.000000 1.000000
+
+  gen_LED heading_digital
+    POS 489.000000 1565.000000
+    IMAGE AW101_airspeed_digital
+    DATAREF sim/flightmodel/position/psi
+    SIZE 0.500000
+    LIGHT_MODE BACK_LIT_AUTO
+    LIGHT_RHEOSTAT 0
+    KEY_FRAME 0.000000 0.000000 1.000000
+    KEY_FRAME 360.000000 360.000000
+    DIGITS 3
+    DECIMALS 0
+    PERIOD_WIDTH 0
+    LED_ROWS 0
+
+  gen_LED groundspeed_digital
+    POS 487.000000 991.000000
+    IMAGE AW101_airspeed_digital
+    DATAREF sim/cockpit2/gauges/indicators/airspeed_kts_pilot
+    SIZE 0.500000
+    LIGHT_MODE BACK_LIT_AUTO
+    LIGHT_RHEOSTAT 0
+    KEY_FRAME 0.000000 0.000000 1.000000
+    KEY_FRAME 200.000000 200.000000
+    DIGITS 3
+    DECIMALS 0
+    PERIOD_WIDTH 0
+    LED_ROWS 0
 
 END_GROUP
 PANEL_3D_END
