@@ -3,12 +3,12 @@ I
 ACF
 
 PROPERTIES_BEGIN
-P _cgpt/0/_name velivolo vuoto
+P _cgpt/0/_name empty craft
 P _cgpt/0/_w_max 22259.199218750
 P _cgpt/0/_w_now 22259.199218750
 P _cgpt/0/_w_test 22259.185546875
 P _cgpt/0/_z_ref 21.329999924
-P _cgpt/1/_name Serbatoio carburante #1
+P _cgpt/1/_name fuel tank #1
 P _cgpt/1/_w_max 2259.699951172
 P _cgpt/1/_w_now 2485.669921875
 P _cgpt/1/_w_test 0.0
@@ -53,42 +53,42 @@ P _cgpt/19/_w_max 0.0
 P _cgpt/19/_w_now 1.0
 P _cgpt/19/_w_test 0.0
 P _cgpt/19/_z_ref 0.0
-P _cgpt/2/_name Serbatoio carburante #2
+P _cgpt/2/_name fuel tank #2
 P _cgpt/2/_w_max 2259.699951172
 P _cgpt/2/_w_now 2485.669921875
 P _cgpt/2/_w_test 0.0
 P _cgpt/2/_z_ref 24.209999084
-P _cgpt/3/_name Serbatoio carburante #3
+P _cgpt/3/_name fuel tank #3
 P _cgpt/3/_w_max 2259.699951172
 P _cgpt/3/_w_now 2485.669921875
 P _cgpt/3/_w_test 0.0
 P _cgpt/3/_z_ref 20.930000305
-P _cgpt/4/_name Serbatoio carburante #4
+P _cgpt/4/_name fuel tank #4
 P _cgpt/4/_w_max 2259.699951172
 P _cgpt/4/_w_now 2485.669921875
 P _cgpt/4/_w_test 0.0
 P _cgpt/4/_z_ref 35.700000763
-P _cgpt/5/_name Serbatoio carburante #5
+P _cgpt/5/_name fuel tank #5
 P _cgpt/5/_w_max 0.0
 P _cgpt/5/_w_now 1.0
 P _cgpt/5/_w_test 0.0
 P _cgpt/5/_z_ref 0.0
-P _cgpt/6/_name Serbatoio carburante #6
+P _cgpt/6/_name fuel tank #6
 P _cgpt/6/_w_max 0.0
 P _cgpt/6/_w_now 1.0
 P _cgpt/6/_w_test 0.0
 P _cgpt/6/_z_ref 0.0
-P _cgpt/7/_name Serbatoio carburante #7
+P _cgpt/7/_name fuel tank #7
 P _cgpt/7/_w_max 0.0
 P _cgpt/7/_w_now 1.0
 P _cgpt/7/_w_test 0.0
 P _cgpt/7/_z_ref 0.0
-P _cgpt/8/_name Serbatoio carburante #8
+P _cgpt/8/_name fuel tank #8
 P _cgpt/8/_w_max 0.0
 P _cgpt/8/_w_now 1.0
 P _cgpt/8/_w_test 0.0
 P _cgpt/8/_z_ref 0.0
-P _cgpt/9/_name Serbatoio carburante #9
+P _cgpt/9/_name fuel tank #9
 P _cgpt/9/_w_max 0.0
 P _cgpt/9/_w_now 1.0
 P _cgpt/9/_w_test 0.0
@@ -141,7 +141,7 @@ P _gear/0/_gear_can_retract 1
 P _gear/0/_gear_castors 0
 P _gear/0/_gear_def_empty 0.164041996
 P _gear/0/_gear_def_gross 0.557742774
-P _gear/0/_gear_load_fraction 0.314717054
+P _gear/0/_gear_load_fraction 0.313687712
 P _gear/0/_gear_type 3
 P _gear/0/_gear_x 0.0
 P _gear/0/_gear_y 0.0
@@ -151,10 +151,10 @@ P _gear/0/_latN 0.0
 P _gear/0/_latR 0.0
 P _gear/0/_leg_len 3.280839920
 P _gear/0/_lonE 0.0
-P _gear/0/_lonN 2.946823120
+P _gear/0/_lonN 47.716964722
 P _gear/0/_lonR 90.0
 P _gear/0/_scon 38969.898437500
-P _gear/0/_stat_def 0.259948701
+P _gear/0/_stat_def 0.259092480
 P _gear/0/_steerdeg_hispeed 45.0
 P _gear/0/_steerdeg_lospeed 45.0
 P _gear/0/_strut_comp 2.0
@@ -175,7 +175,7 @@ P _gear/1/_gear_can_retract 1
 P _gear/1/_gear_castors 0
 P _gear/1/_gear_def_empty 0.164041996
 P _gear/1/_gear_def_gross 0.557742774
-P _gear/1/_gear_load_fraction 0.342641503
+P _gear/1/_gear_load_fraction 0.343156129
 P _gear/1/_gear_type 3
 P _gear/1/_gear_x 5.019684792
 P _gear/1/_gear_y 0.0
@@ -185,10 +185,10 @@ P _gear/1/_latN 0.0
 P _gear/1/_latR 0.0
 P _gear/1/_leg_len 3.280839920
 P _gear/1/_lonE -10.0
-P _gear/1/_lonN -12.619400024
+P _gear/1/_lonN -52.415081024
 P _gear/1/_lonR -90.0
 P _gear/1/_scon 38969.898437500
-P _gear/1/_stat_def 0.283013642
+P _gear/1/_stat_def 0.283432066
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.300000012
@@ -209,7 +209,7 @@ P _gear/2/_gear_can_retract 1
 P _gear/2/_gear_castors 0
 P _gear/2/_gear_def_empty 0.164041996
 P _gear/2/_gear_def_gross 0.557742774
-P _gear/2/_gear_load_fraction 0.342641503
+P _gear/2/_gear_load_fraction 0.343156129
 P _gear/2/_gear_type 3
 P _gear/2/_gear_x -5.019684792
 P _gear/2/_gear_y 0.0
@@ -219,10 +219,10 @@ P _gear/2/_latN 0.0
 P _gear/2/_latR 0.0
 P _gear/2/_leg_len 3.280839920
 P _gear/2/_lonE -10.0
-P _gear/2/_lonN -12.619400024
+P _gear/2/_lonN -52.415081024
 P _gear/2/_lonR -90.0
 P _gear/2/_scon 38969.898437500
-P _gear/2/_stat_def 0.283013642
+P _gear/2/_stat_def 0.283432066
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.300000012
@@ -340,7 +340,7 @@ P _obja/0/_v10_att_phi_ref 0.0
 P _obja/0/_v10_att_psi_ref 0.0
 P _obja/0/_v10_att_the_ref 0.0
 P _obja/0/_v10_att_x_acf_prt_ref 0.0
-P _obja/0/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/0/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/0/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/0/_v10_is_internal 0
 P _obja/0/_v10_steers_with_gear 0
@@ -351,7 +351,7 @@ P _obja/1/_v10_att_phi_ref 0.0
 P _obja/1/_v10_att_psi_ref 90.0
 P _obja/1/_v10_att_the_ref 0.0
 P _obja/1/_v10_att_x_acf_prt_ref 0.0
-P _obja/1/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/1/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/1/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/1/_v10_is_internal 2
 P _obja/1/_v10_steers_with_gear 0
@@ -362,7 +362,7 @@ P _obja/10/_v10_att_phi_ref 0.0
 P _obja/10/_v10_att_psi_ref 0.0
 P _obja/10/_v10_att_the_ref 0.0
 P _obja/10/_v10_att_x_acf_prt_ref 0.0
-P _obja/10/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/10/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/10/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/10/_v10_is_internal 0
 P _obja/10/_v10_steers_with_gear 0
@@ -373,7 +373,7 @@ P _obja/2/_v10_att_phi_ref 0.0
 P _obja/2/_v10_att_psi_ref 90.0
 P _obja/2/_v10_att_the_ref 0.0
 P _obja/2/_v10_att_x_acf_prt_ref 0.0
-P _obja/2/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/2/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/2/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/2/_v10_is_internal 1103971576
 P _obja/2/_v10_steers_with_gear 0
@@ -384,7 +384,7 @@ P _obja/3/_v10_att_phi_ref 0.0
 P _obja/3/_v10_att_psi_ref 90.0
 P _obja/3/_v10_att_the_ref 0.0
 P _obja/3/_v10_att_x_acf_prt_ref 0.0
-P _obja/3/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/3/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/3/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/3/_v10_is_internal 1103971576
 P _obja/3/_v10_steers_with_gear 0
@@ -395,7 +395,7 @@ P _obja/4/_v10_att_phi_ref 0.0
 P _obja/4/_v10_att_psi_ref 90.0
 P _obja/4/_v10_att_the_ref 0.0
 P _obja/4/_v10_att_x_acf_prt_ref 0.0
-P _obja/4/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/4/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/4/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/4/_v10_is_internal 1103971576
 P _obja/4/_v10_steers_with_gear 0
@@ -406,7 +406,7 @@ P _obja/5/_v10_att_phi_ref 0.0
 P _obja/5/_v10_att_psi_ref 90.0
 P _obja/5/_v10_att_the_ref 0.0
 P _obja/5/_v10_att_x_acf_prt_ref 0.0
-P _obja/5/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/5/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/5/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/5/_v10_is_internal 1103971576
 P _obja/5/_v10_steers_with_gear 0
@@ -417,7 +417,7 @@ P _obja/6/_v10_att_phi_ref 0.0
 P _obja/6/_v10_att_psi_ref 90.0
 P _obja/6/_v10_att_the_ref 0.0
 P _obja/6/_v10_att_x_acf_prt_ref 0.0
-P _obja/6/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/6/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/6/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/6/_v10_is_internal 2
 P _obja/6/_v10_steers_with_gear 0
@@ -428,7 +428,7 @@ P _obja/7/_v10_att_phi_ref 0.0
 P _obja/7/_v10_att_psi_ref 90.0
 P _obja/7/_v10_att_the_ref 0.0
 P _obja/7/_v10_att_x_acf_prt_ref 0.0
-P _obja/7/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/7/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/7/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/7/_v10_is_internal 0
 P _obja/7/_v10_steers_with_gear 0
@@ -439,7 +439,7 @@ P _obja/8/_v10_att_phi_ref 0.0
 P _obja/8/_v10_att_psi_ref 90.0
 P _obja/8/_v10_att_the_ref 0.0
 P _obja/8/_v10_att_x_acf_prt_ref 0.0
-P _obja/8/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/8/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/8/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/8/_v10_is_internal 2
 P _obja/8/_v10_steers_with_gear 0
@@ -450,7 +450,7 @@ P _obja/9/_v10_att_phi_ref 0.0
 P _obja/9/_v10_att_psi_ref 0.0
 P _obja/9/_v10_att_the_ref 0.0
 P _obja/9/_v10_att_x_acf_prt_ref 0.0
-P _obja/9/_v10_att_y_acf_prt_ref -4.002624512
+P _obja/9/_v10_att_y_acf_prt_ref -3.937007904
 P _obja/9/_v10_att_z_acf_prt_ref 20.866142273
 P _obja/9/_v10_is_internal 0
 P _obja/9/_v10_steers_with_gear 0
@@ -18073,7 +18073,7 @@ P _part/85/_part_specs_invis 1
 P _part/85/_part_tex 0
 P _part/85/_part_the 0.0
 P _part/85/_part_x 0.0
-P _part/85/_part_y -3.020891190
+P _part/85/_part_y -3.021747351
 P _part/85/_part_z 4.790026188
 P _part/85/_patt_con 0
 P _part/85/_patt_prt 0
@@ -19542,7 +19542,7 @@ P _part/86/_part_specs_invis 1
 P _part/86/_part_tex 0
 P _part/86/_part_the 0.0
 P _part/86/_part_x 5.019684792
-P _part/86/_part_y -2.947983027
+P _part/86/_part_y -2.947564602
 P _part/86/_part_z 28.883359909
 P _part/86/_patt_con 0
 P _part/86/_patt_prt 0
@@ -21011,7 +21011,7 @@ P _part/87/_part_specs_invis 1
 P _part/87/_part_tex 0
 P _part/87/_part_the 0.0
 P _part/87/_part_x -5.019684792
-P _part/87/_part_y -2.947983027
+P _part/87/_part_y -2.947564602
 P _part/87/_part_z 28.883359909
 P _part/87/_patt_con 0
 P _part/87/_patt_prt 0
@@ -24634,9 +24634,9 @@ P acf/_camera_offset_psi 0.0
 P acf/_camera_offset_the 0.0
 P acf/_cdi_auto_crs_gps0 0
 P acf/_cdi_auto_crs_gps1 0
-P acf/_cgY 3.280839920
+P acf/_cgY -3.280839920
 P acf/_cgZ 21.325458527
-P acf/_cgZ_aft 22.965879440
+P acf/_cgZ_aft 31.167978287
 P acf/_cgZ_fwd 19.685039520
 P acf/_chaff_max 0
 P acf/_chute_psi/0 0.0
@@ -26000,7 +26000,7 @@ P acf/_ground_pwr/0 0.0
 P acf/_ground_pwr/1 0.0
 P acf/_ground_pwr/2 0.0
 P acf/_ground_pwr/count 3
-P acf/_h_eqlbm 7.020398140
+P acf/_h_eqlbm 0.458746731
 P acf/_has_ADG 0
 P acf/_has_APU_bleed_air 0
 P acf/_has_APU_generator 0
@@ -26181,11 +26181,11 @@ P acf/_new_plot_outer_acf/2 1
 P acf/_new_plot_outer_acf/3 1
 P acf/_new_plot_outer_acf/4 1
 P acf/_new_plot_outer_acf/count 5
-P acf/_no_default_engine_fx 0
-P acf/_no_default_gear_fx 0
-P acf/_no_default_gun_fx 0
-P acf/_no_default_wash_fx 0
-P acf/_no_default_wing_fx 0
+P acf/_no_default_engine_fx 1
+P acf/_no_default_gear_fx 1
+P acf/_no_default_gun_fx 1
+P acf/_no_default_wash_fx 1
+P acf/_no_default_wing_fx 1
 P acf/_no_hydro_force_mult_brakes 1.0
 P acf/_no_hydro_force_mult_flcons 1.0
 P acf/_nom_bat_volt 24.0
@@ -26656,7 +26656,7 @@ P acf/_tank_xyz/8,1 0.0
 P acf/_tank_xyz/8,2 0.0
 P acf/_tank_xyz/i_count 9
 P acf/_tank_xyz/j_count 3
-P acf/_the_eqlbm -0.216723382
+P acf/_the_eqlbm -0.213692978
 P acf/_thro_non_vect_props_at_sin_vect 0
 P acf/_thro_x_ctr 0.0
 P acf/_throt_max_fwd_emr 1.0
@@ -26839,7 +26839,7 @@ GROUP PFD_PILOT
   gen_needle airspeed
     POS 1216.000000 1600.000000
     IMAGE AW101_anemometer
-    DATAREF sim/cockpit2/gauges/indicators/airspeed_kts_pilot
+    DATAREF sim/flightmodel/position/indicated_airspeed
     SIZE 0.500000
     LIGHT_MODE BACK_LIT_AUTO
     LIGHT_RHEOSTAT 0
@@ -26851,24 +26851,26 @@ GROUP PFD_PILOT
   gen_needle altitude
     POS 1856.000000 1600.000000
     IMAGE AW101_altimeter
-    DATAREF sim/cockpit2/gauges/indicators/altitude_ft_pilot
+    DATAREF sim/flightmodel/misc/h_ind
     SIZE 0.500000
     LIGHT_MODE BACK_LIT_AUTO
     LIGHT_RHEOSTAT 0
     KEY_FRAME 0.000000 0.000000 1.000000
-    KEY_FRAME 100000.000000 36000.000000
+    KEY_FRAME 100000.000000 360000.000000
     IS_DRAGGABLE 0
     OFFSET 0.000000
 
   gen_pointer sideslip
     POS 1536.000000 832.000000
     IMAGE AW101_sideslip
-    DATAREF lateral_acc
+    DATAREF sim/flightmodel/position/local_ay
     SIZE 0.500000
+    KF_WRAP_BOTTOM
+    KF_WRAP_TOP
     LIGHT_MODE BACK_LIT_AUTO
     LIGHT_RHEOSTAT 0
-    KEY_FRAME -2.000000 -133.000000 1.000000
-    KEY_FRAME 2.000000 133.000000
+    KEY_FRAME -19.620001 -133.000000 1.000000
+    KEY_FRAME 19.620001 133.000000
     IS_DRAGGABLE 0
     IS_VERTICAL 0
     OFFSET 0.000000
@@ -26876,8 +26878,10 @@ GROUP PFD_PILOT
   gen_pointer vertspeed
     POS 1948.000000 1124.500000
     IMAGE AW101_vertspeedind
-    DATAREF sim/cockpit/autopilot/vertical_velocity
+    DATAREF sim/flightmodel/position/vh_ind_fpm
     SIZE 0.500000
+    KF_WRAP_BOTTOM
+    KF_WRAP_TOP
     LIGHT_MODE BACK_LIT_AUTO
     LIGHT_RHEOSTAT 0
     KEY_FRAME -400.000000 -514.559998 1.000000
@@ -26910,13 +26914,27 @@ GROUP PFD_PILOT
   gen_LED altitude_digital
     POS 1818.000000 1594.000000
     IMAGE AW101_altitude_digital
-    DATAREF sim/cockpit2/gauges/indicators/altitude_ft_pilot
+    DATAREF sim/flightmodel/misc/h_ind
     SIZE 0.400000
     LIGHT_MODE BACK_LIT_AUTO
     LIGHT_RHEOSTAT 0
     KEY_FRAME 0.000000 0.000000 1.000000
-    KEY_FRAME 99999.000000 99999.000000
+    KEY_FRAME 100000.000000 100000.000000
     DIGITS 5
+    DECIMALS 0
+    PERIOD_WIDTH 0
+    LED_ROWS 0
+
+  gen_LED vertspeed_digital
+    POS 1918.000000 820.000000
+    IMAGE AW101_airspeed_digital
+    DATAREF sim/flightmodel/position/vh_ind_fpm
+    SIZE 0.500000
+    LIGHT_MODE BACK_LIT_AUTO
+    LIGHT_RHEOSTAT 0
+    KEY_FRAME -400.000000 -400.000000 1.000000
+    KEY_FRAME 400.000000 400.000000
+    DIGITS 3
     DECIMALS 0
     PERIOD_WIDTH 0
     LED_ROWS 0
@@ -26933,7 +26951,7 @@ GROUP PND_PILOT
     KEY_FRAME 1.000000 1.000000
 
   gen_LED heading_digital
-    POS 487.571442 1583.000000
+    POS 487.000000 1583.000000
     IMAGE AW101_airspeed_digital
     DATAREF sim/flightmodel/position/psi
     SIZE 0.500000
@@ -26949,7 +26967,7 @@ GROUP PND_PILOT
   gen_LED groundspeed_digital
     POS 488.000000 983.000000
     IMAGE AW101_airspeed_digital
-    DATAREF sim/cockpit2/gauges/indicators/airspeed_kts_pilot
+    DATAREF sim/flightmodel/position/indicated_airspeed
     SIZE 0.500000
     LIGHT_MODE BACK_LIT_AUTO
     LIGHT_RHEOSTAT 0
@@ -26961,4 +26979,116 @@ GROUP PND_PILOT
     LED_ROWS 0
 
 END_GROUP
+gen_pointer lateral_cyclic
+  POS 512.285767 1696.142822
+  IMAGE AW101_lat_cyclic
+  DATAREF sim/cockpit2/controls/yoke_r
+  KF_WRAP_BOTTOM
+  KF_WRAP_TOP
+  LIGHT_MODE BACK_LIT_AUTO
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME -1.000000 -256.000000 1.000000
+  KEY_FRAME 1.000000 256.000000
+  IS_DRAGGABLE 0
+  IS_VERTICAL 0
+  OFFSET -64.000000
+
+gen_pointer pedals
+  POS 513.000000 866.714294
+  IMAGE AW101_pedals
+  DATAREF sim/cockpit2/controls/yoke_heading_ratio
+  KF_WRAP_BOTTOM
+  KF_WRAP_TOP
+  LIGHT_MODE BACK_LIT_AUTO
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME -1.000000 -256.000000 1.000000
+  KEY_FRAME 1.000000 256.000000
+  IS_DRAGGABLE 0
+  IS_VERTICAL 0
+  OFFSET -64.000000
+
+gen_pointer collective
+  POS 151.000000 1280.000000
+  IMAGE AW101_collective
+  DATAREF sim/cockpit2/engine/actuators/throttle_ratio_all
+  KF_WRAP_BOTTOM
+  KF_WRAP_TOP
+  LIGHT_MODE BACK_LIT_AUTO
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 -256.000000 1.000000
+  KEY_FRAME 1.000000 256.000000
+  IS_DRAGGABLE 0
+  IS_VERTICAL 1
+  OFFSET -64.000000
+
+gen_pointer longitudinal_cyclic
+  POS 876.000000 1282.000000
+  IMAGE AW101_lon_cyclic
+  DATAREF sim/cockpit2/controls/yoke_pitch_ratio
+  KF_WRAP_BOTTOM
+  KF_WRAP_TOP
+  LIGHT_MODE BACK_LIT_AUTO
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME -1.000000 -256.000000 1.000000
+  KEY_FRAME 1.000000 256.000000
+  IS_DRAGGABLE 0
+  IS_VERTICAL 1
+  OFFSET -64.000000
+
+gen_pointer trim_lateral_cyclic
+  POS 512.571411 1696.857178
+  IMAGE AW101_lat_cyclic_trim
+  DATAREF sim/cockpit2/controls/aileron_trim
+  KF_WRAP_BOTTOM
+  KF_WRAP_TOP
+  LIGHT_MODE BACK_LIT_AUTO
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME -1.000000 -256.000000 1.000000
+  KEY_FRAME 1.000000 256.000000
+  IS_DRAGGABLE 0
+  IS_VERTICAL 0
+  OFFSET 64.000000
+
+gen_pointer trim_pedals
+  POS 512.000000 866.000000
+  IMAGE AW101_pedals_trim
+  DATAREF sim/cockpit2/controls/rudder_trim
+  KF_WRAP_BOTTOM
+  KF_WRAP_TOP
+  LIGHT_MODE BACK_LIT_AUTO
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME -1.000000 -256.000000 1.000000
+  KEY_FRAME 1.000000 256.000000
+  IS_DRAGGABLE 0
+  IS_VERTICAL 0
+  OFFSET 64.000000
+
+gen_pointer trim_collective
+  POS 148.000000 1282.000000
+  IMAGE AW101_collective_trim
+  DATAREF sim/cockpit2/controls/rotor_trim
+  KF_WRAP_BOTTOM
+  KF_WRAP_TOP
+  LIGHT_MODE BACK_LIT_AUTO
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME -1.000000 -256.000000 1.000000
+  KEY_FRAME 1.000000 256.000000
+  IS_DRAGGABLE 0
+  IS_VERTICAL 1
+  OFFSET 64.000000
+
+gen_pointer trim_longitudinal_c
+  POS 876.000000 1280.000000
+  IMAGE AW101_lon_cyclic_trim
+  DATAREF sim/cockpit2/controls/elevator_trim
+  KF_WRAP_BOTTOM
+  KF_WRAP_TOP
+  LIGHT_MODE BACK_LIT_AUTO
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME -1.000000 -256.000000 1.000000
+  KEY_FRAME 1.000000 256.000000
+  IS_DRAGGABLE 0
+  IS_VERTICAL 1
+  OFFSET 64.000000
+
 PANEL_3D_END
